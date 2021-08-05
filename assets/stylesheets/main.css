@@ -58,9 +58,7 @@ table {
 
 body {
     padding: 50px 30px;
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+    font-family: 'Poppins', sans-serif;
     background: url('../stylesheets/01.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
