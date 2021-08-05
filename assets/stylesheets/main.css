@@ -55,15 +55,18 @@ table {
 
 
 /* main */
+
 body {
     padding: 50px 30px;
-    font-family:Arial, Helvetica, sans-serif;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
     background: url('../stylesheets/01.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
 
-    
+
 }
 
 main {
@@ -81,7 +84,7 @@ header {
 .title {
     text-align: center;
     font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
+
     font-weight: 700;
     line-height: 30px;
     padding-top: 10px;
@@ -89,6 +92,7 @@ header {
 .title_under {
     font-size: 18px;
     font-style: italic;
+    font-weight: 50;
     padding-top: 10px;
     padding-bottom: 20px;
 }
