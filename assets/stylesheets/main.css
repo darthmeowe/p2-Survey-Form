@@ -59,12 +59,11 @@ table {
 body {
     padding: 50px 30px;
     font-family: 'Poppins', sans-serif;
-    background: url('../stylesheets/01.jpg');
+    background-image: url('../stylesheets/01.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
-
-
+    position: relative;
 }
 
 
@@ -73,14 +72,8 @@ main {
     max-width: 800px;
     margin: 0 auto;
 }
-.overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-  }
+
+
 header {
  
     max-width: 800px;
@@ -100,7 +93,7 @@ header {
     font-style: italic;
     font-weight: 50;
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 
@@ -113,7 +106,8 @@ header {
 
 .block_enter {
 
-    padding: 20px;
+    padding: 0 40px;
+    padding-top: 35px;
 
     line-height: 30px;
     font-size: 18px;
@@ -125,17 +119,19 @@ header {
     max-width: 800px;
     height: max-content;
     font-size: 18px;
+    padding-top: 10px;
 }
+
 
 
 .block_recommed {
 
-    padding: 20px;
+    padding: 10px 40px;
 }
 
 .block_option {
 
-    padding: 20px;
+    padding: 20px 40px;
     text-align: left;
 
 }
@@ -150,18 +146,17 @@ select {
 
 .block_checkbox {
 
-    padding: 20px;
+    padding: 20px 40px;
     
     display: flex;
     align-items:flex-start;
     flex-direction:column;
-    
 }
 
 
 .block_comment {
 
-    padding: 20px;
+    padding: 20px 40px;
 
 }
 textarea {
