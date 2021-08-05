@@ -28,7 +28,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html, 
 body {
+    height: 100%;
 	line-height: 1;
 }
 ol, ul {
@@ -46,8 +48,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.wrapper {
+    min-height: 100%;
 
+}
 
+.main {
+    flex: 1 1 auto;
+}
 
 
 
@@ -64,6 +72,7 @@ body {
     background-attachment: fixed;
     background-position: center center;
     position: relative;
+    
 }
 
 
@@ -71,6 +80,8 @@ main {
     background-color: rgba(24, 2, 65, 0.61);
     max-width: 800px;
     margin: 0 auto;
+
+    border-radius: 4px;
 }
 
 
@@ -105,7 +116,6 @@ header {
 }
 
 .block_enter {
-
     padding: 0 40px;
     padding-top: 35px;
 
@@ -120,6 +130,8 @@ header {
     height: max-content;
     font-size: 18px;
     padding-top: 10px;
+
+    border-radius: 4px;
 }
 
 
@@ -128,6 +140,7 @@ header {
 
     padding: 10px 40px;
 }
+
 
 .block_option {
 
@@ -163,6 +176,11 @@ textarea {
     width: 100%;
     max-width: 800px;
     height: 150px;
+
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 
@@ -170,12 +188,13 @@ textarea {
 
     padding: 20px;
     
+
     text-align: center;
 }
 button {
-    background-color: #55c55e;
+    background-color: #39c763;
     width: 100%;
-    height: max-content;
+    height: 50px;
     margin: 0 auto;
     max-width: 800px;
     font-size: 24px;
@@ -185,6 +204,7 @@ button {
     text-decoration: none;
     user-select: none;
     outline: none;
+    border-radius: 2px;
 } 
 
 
