@@ -72,7 +72,7 @@ body {
     background-attachment:fixed;
     background-position: center center;
     position: relative;
-    background:linear-gradient(rgba(76, 57, 185, 0.664), rgba(76, 57, 185, 0.664), rgba(76, 57, 185, 0.664)), url('../stylesheets/01.jpg') no-repeat center center fixed;
+    background:linear-gradient(rgba(76, 57, 185, 0.7), rgba(76, 57, 185, 0.7), rgba(76, 57, 185, 0.7)), url('../stylesheets/01.jpg') no-repeat center center fixed;
     background-size: cover;
 }
  
