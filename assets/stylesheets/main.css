@@ -121,7 +121,7 @@ header {
 
     line-height: 30px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: left;
 }
 .enter input {
@@ -133,17 +133,24 @@ header {
 
     border-radius: 4px;
 }
+.enter label, 
+.enter option{
+    font-size: 18px;
+    border-radius: 4px;
+}
 
 
 
 .block_recommed {
-
+    font-size: 18px;
+    font-weight: 600;
     padding: 10px 40px;
 }
 
 
 .block_option {
-
+    font-size: 18px;
+    font-weight: 700;
     padding: 20px 40px;
     text-align: left;
 
@@ -160,7 +167,8 @@ select {
 .block_checkbox {
 
     padding: 20px 40px;
-    
+    font-size: 18px;
+    font-weight: 700;
     display: flex;
     align-items:flex-start;
     flex-direction:column;
