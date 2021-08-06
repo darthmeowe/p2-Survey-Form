@@ -67,17 +67,18 @@ table {
 body {
     padding: 50px 30px;
     font-family: 'Poppins', sans-serif;
-    background-image: url('../stylesheets/01.jpg');
+   
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-position: center center;
     position: relative;
-    
+    background:linear-gradient(rgba(76, 57, 185, 0.664), rgba(76, 57, 185, 0.664), rgba(76, 57, 185, 0.664)), url('../stylesheets/01.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
-
+ 
 
 main {
-    background-color: rgba(24, 2, 65, 0.61);
+    background-color: rgba(24, 2, 65, 0.733);
     max-width: 800px;
     margin: 0 auto;
 
@@ -193,11 +194,13 @@ textarea {
 
 
 .block_btn {
-
     padding: 20px;
-    
-
     text-align: center;
+ 
+}
+a{
+    text-decoration: none;
+    color: honeydew;
 }
 button {
     background-color: #39c763;
@@ -207,11 +210,8 @@ button {
     max-width: 800px;
     font-size: 24px;
     font-weight: 400;
-    color: honeydew;
-
-    text-decoration: none;
+   border: 1px solid #39c763;
     user-select: none;
-    outline: none;
     border-radius: 2px;
 } 
 
@@ -219,6 +219,8 @@ button {
 input,
 option {
     color: silver;
+    border: 1px solid silver;
+
 }
 .title,
 label,
